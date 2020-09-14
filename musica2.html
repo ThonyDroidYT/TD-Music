@@ -1,0 +1,106 @@
+<!-- REPRODUCTOR MSC-->
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>    
+    <script type="text/javascript" src="js/musicplayer.js"></script>
+</head>
+<body>
+
+
+    <div class="example">
+
+<center><small><b>MP3 REMIX</b></small></center>
+
+        <div class="playlist">
+            <div data-cover="./data/Happy.jpg" data-artist="Electró"><a href="./data/Happy.mp3">1: Song - Happy Life</a></div>  
+            <div data-cover="./data/regeton.jpg" data-artist="Rap">
+                <a href="./data/rap.mp3">2: Quiero - Ser un Ganador</a>
+            </div>
+<div data-cover="./data/regeton.jpg" data-artist="Regetón">
+                <a href="./data/regeton.mp3">3: The Golden - Tu Ganaste</a>
+            </div>
+            <div data-cover="./data/regeton.jpg" data-artist="electro"><a href="./data/walker.mp3"></a>4: Walker - The Spectre</div>
+            <div data-cover="./data/Fire.jpg" data-artist="Electronica"><a href="./data/Fire.mp3"></a>5: Elektronomia - Fire</div>
+            <div data-cover="./data/Itro.jpg" data-artist="Electronica"><a href="./data/Itro.mp3"></a>6: Itro - Panda [NCS Release]</div>
+        </div>
+
+    </div>
+
+     <script>
+        $(".example").musicPlayer({
+            playlistItemSelector: 'div',
+            elements: ['artwork', 'information', 'controls', 'progress', 'time', 'volume'], // ==> This will display in  the order it is inserted
+            //elements: [ 'controls' , 'information', 'artwork', 'progress', 'time', 'volume' ],
+            //controlElements: ['backward', 'play', 'forward', 'stop'],
+            //timeElements: ['current', 'duration'],
+           //timeSeparator: " : ", // ==> Only used if two elements in timeElements option
+            //infoElements: [  'title', 'artist' ],  
+
+            //volume: 10,
+            //autoPlay: true,
+            //loop: true,
+         
+            onPlay: function() {
+               $('body').css('background', 'white');
+            },
+            onPause: function() {
+                $('body').css('background', 'white');
+            },
+            onStop: function() {
+                $('body').css('background', 'white');
+            },
+            onFwd: function() {
+                $('body').css('background', 'white');
+            },
+            onRew: function() {
+                $('body').css('background', 'white');
+            },
+            volumeChanged: function() {
+                $('body').css('background', 'white');
+            },
+            seeked: function() {
+               $('body').css('background', 'white');
+            },
+            trackClicked: function() {
+               $('body').css('background', 'white');
+            },
+            onMute: function() {
+               $('body').css('background', 'white');
+            },
+
+
+        });
+
+    $(".example2").musicPlayer({
+         //volume: 10,
+         //elements: ['artwork', 'controls', 'progress', 'time', 'volume'],
+        //playerAbovePlaylist: false,
+        onLoad: function() {
+            //Add Audio player
+            plElem  = "<div class='pl'></div>";
+            $('.example2').find('.player').append(plElem);
+            // show playlist
+            $('.pl').click(function (e) {
+                e.preventDefault();
+
+                $('.example2').find('.playlist').toggleClass("hidden");
+            });
+        },
+
+   });
+
+
+    </script>
+
+  </body>
+</html>
+
+
+</div>
+					</div>	<div style="clear: both"></div>
+		</div>
+	</div>
+	<div style="clear:both">
+</div>
+</tbody>
+</table>
+</div>
