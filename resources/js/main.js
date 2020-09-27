@@ -12,15 +12,15 @@
       {
         file: "resources/tracks/02.mp3",
         thumb: "resources/thumbs/02.gif",
-        trackName: "Electromania - Shine On",
-        trackArtist: "Electro",
+        trackName: "Shine On",
+        trackArtist: "Electromania",
         trackAlbum: "Single",
       },
       {
         file: "resources/tracks/03.mp3",
         thumb: "resources/thumbs/02.gif",
         trackName: "Happy life",
-        trackArtist: "Electro",
+        trackArtist: "Alan Walker",
         trackAlbum: "Single",
       },
       {
@@ -41,7 +41,7 @@
         file: "Version-2.0/Audio_One.mp3",
         thumb: "Version-2.0/cover1.jpg",
         trackName: "King Kong - Remix",
-        trackArtist: "PHYNO",
+        trackArtist: "PHYNO - REMIGNICE ",
         trackAlbum: "Single",
       },
       {
