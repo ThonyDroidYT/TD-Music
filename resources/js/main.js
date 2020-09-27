@@ -37,6 +37,27 @@
         trackArtist: "Elektronomia",
         trackAlbum: "Single",
       },
+      {
+        file: "Version-2.0/Audio_One.mp3",
+        thumb: "Version-2.0/cover1.jpg",
+        trackName: "King Kong - Songs",
+        trackArtist: "Electro",
+        trackAlbum: "Single",
+      },
+      {
+        file: "Version-2.0/Audio_Two.mp3",
+        thumb: "Version-2.0/cover2.jpg",
+        trackName: "King Kong - Song2",
+        trackArtist: "Electro",
+        trackAlbum: "Single",
+      },
+      {
+        file: "Version-2.0/Audio_Three.mp3",
+        thumb: "Version-2.0/cover3.jpg",
+        trackName: "King Kong - Song3",
+        trackArtist: "Electro",
+        trackAlbum: "Single",
+      },
     ]
   }
 
